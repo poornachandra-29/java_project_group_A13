@@ -1,6 +1,7 @@
 # 💬 Social Chat App
 
-🎥 **Java Presentation Video:** [Watch on Google Drive](https://drive.google.com/your-drive-link-here)
+🎥 **Java Presentation Video:** [Watch on Google Drive](https://drive.google.com/your-drive-link-here)  
+📄 **Project Report (PDF):** [Social_Chat_App_Project_Report.pdf](Social_Chat_App_Project_Report.pdf)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=flat&logo=java&logoColor=white)
