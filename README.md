@@ -17,7 +17,10 @@
 📦 **Repository:** [github.com/poornachandra-29/java_project_group_A13](https://github.com/poornachandra-29/java_project_group_A13)
 
 ---
-
+**Done by : Pagidimarri Poorna chandra.**
+**Roll.no : AP24110011429**
+**Sec : A**
+---
 ## 🌟 Overview
 
 **Social Chat App** is a desktop messaging application that lets users sign up, log in, chat in real time, send files, and create group conversations. It is built as a JavaFX client connected to a Java TCP server, with MySQL used for storing user and chat data.
