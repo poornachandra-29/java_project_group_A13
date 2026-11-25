@@ -1,5 +1,7 @@
 # 💬 Social Chat App
 
+🎥 **Java Presentation Video:** [Watch on Google Drive](https://drive.google.com/your-drive-link-here)
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=flat&logo=java&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -11,7 +13,7 @@
 
 > A JavaFX desktop social chat application built on a custom TCP socket protocol, with real-time messaging, file transfer, group chat, and AI-powered smart reply suggestions.
 
-📦 **Repository:** Real-Time-Chat-Application
+📦 **Repository:** [github.com/poornachandra-29/java_project_group_A13](https://github.com/poornachandra-29/java_project_group_A13)
 
 ---
 
