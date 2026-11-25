@@ -291,11 +291,22 @@ If the service is not running, the server will gracefully skip smart reply sugge
 
 ## ▶️ How to Run
 
+### 0. Set Up the Database
+
+1. Ensure MySQL Server is running locally on port `3306`.
+2. Import the provided schema to create the `socialchatapp` database and tables:
+   ```bash
+   mysql -u root -p < schema.sql
+   ```
+   *(Or open `schema.sql` in MySQL Workbench / phpMyAdmin and execute it).*
+3. If your MySQL root password is not `root`, configure it either by:
+   - Setting an environment variable: `set DB_PASS=your_password` (Windows) or `export DB_PASS=your_password` (Linux/Mac)
+   - Or updating `USER` and `PASS` directly in [`src/server/dao/DBConnection.java`](file:///c:/git_lu/Real-Time-Chat-Application/src/server/dao/DBConnection.java).
+
 ### 1. Run the Server
 
 1. Resolve dependencies and compile with `mvn clean compile`
-2. Verify the MySQL connection settings in the server source
-3. Run `mvn exec:java "-Dexec.mainClass=server.ServerMain"`
+2. Run `mvn exec:java "-Dexec.mainClass=server.ServerMain"`
 
 The server will start listening on **port 5000**.
 
@@ -327,8 +338,7 @@ Multiple client instances can be launched simultaneously to test real-time messa
 ## ⚠️ Limitations
 
 - **Local server assumption** — The client is configured to connect to `127.0.0.1:5000`. Connecting over a network requires manual configuration.
-- **Local database** — MySQL must be installed and configured locally with the correct schema before the server can start.
-- **Database schema** — No schema or migration script is included; the required tables must be created separately.
+- **Local database** — MySQL must be installed and running locally with the provided `schema.sql` imported.
 - **Smart reply dependency** — The smart reply feature requires a separately running FastAPI service. It is not bundled with the application.
 - **Java version** — The project targets Java 22 or newer.
 
