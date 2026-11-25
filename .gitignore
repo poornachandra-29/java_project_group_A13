@@ -1,0 +1,9 @@
+target/
+bin/
+temp/
+uploads/*
+!uploads/.gitkeep
+.settings/
+.project
+.classpath
+.vscode/
